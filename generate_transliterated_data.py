@@ -11,10 +11,7 @@ from pydantic import BaseModel
 
 import datasets
 
-openai_api_key = ""
-
-# openai_api_key
-
+openai_api_key = "<OPENAI_KEY>"
 client = OpenAI(timeout=1500, api_key=openai_api_key)
 
 class AnswerFormat(BaseModel):
