@@ -56,7 +56,7 @@ python src/inference.py -d <DATASET_NAMES> -o <OUTPUT>
 | Argument         | Description                                       | Example / Default                     |
 |------------------|---------------------------------------------------|---------------------------------------|
 | `--dataset_names` or `-d` | Dataset names                                     | all                                   |
-| `--output_folder` or `o` | Output folder                                     | output                                |
+| `--output_folder` or `-o` | Output folder                                     | output                                |
 | `--chunk_size`| Output folder                                     | 1                                |
 | `--start_offset`| Start offset                                     | 0                                |
 | `--end_offset`| End offset                                     | -1                                |
