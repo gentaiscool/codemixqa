@@ -1,6 +1,6 @@
 # CodeMixQA
 ![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-<a href="[https://huggingface.co/collections/rubricreward/mr3-datasets-68d9706d9c388e2be8be4b4f](https://huggingface.co/datasets/gentaiscool/codemixqa)">
+<a href="https://huggingface.co/collections/rubricreward/mr3-datasets-68d9706d9c388e2be8be4b4f">
   <img src="https://img.shields.io/badge/CodeMixQA Dataset-orange.svg?logo=huggingface&logoColor=white" alt="CodeMixQA Dataset"/>
 </a>
   
