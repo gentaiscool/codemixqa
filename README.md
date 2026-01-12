@@ -23,7 +23,7 @@ Please run the following command to install the required libraries to reproduce 
 pip install -r requirements.txt
 ```
 
-## 🧪 Generate Dataset
+## 📊 Generate Dataset
 This is the command to generate code-switched dataset.
 ```
 python generate_codemix_data.py --openai_key <OPENAI_KEY>
@@ -34,7 +34,7 @@ python generate_codemix_data.py --openai_key <OPENAI_KEY>
 |------------------|---------------------------------------------------|---------------------------------------|
 | `--openai_key`   | OPENAI_KEY                                        | sk-....                               |
 
-## 🧪 Generate Transliteration
+## 📊 Generate Transliteration
 The transliteration is only done for Indic languages.
 ```
 python generate_transliterated_data.py --openai_key <OPENAI_KEY> --language <LANGUAGE>
