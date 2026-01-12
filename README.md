@@ -10,6 +10,12 @@ We use SimpleQA Verified as our source dataset. We select the SimpleQA Verified,
 
 In this dataset, we employ multiple data generation strategies, including random switching, selective switching, and grammar-constrained approaches. This dataset enables systematic evaluation of LLM performance across different code-switching patterns and text generation strategies.
 
+## 📜 Paper 
+This is the source code of the paper [[Arxiv (will be updated)]](link). This code has been written using Python. If you use any code or datasets from this toolkit in your research, please cite the associated paper.
+```bibtex
+Will be updated
+```
+
 ### ⚡ Environment Setup
 Please run the following command to install the required libraries to reproduce the benchmark results.
 #### Via `pip`
