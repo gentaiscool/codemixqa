@@ -45,3 +45,21 @@ python generate_transliterated_data.py --openai_key <OPENAI_KEY> --language <LAN
 |------------------|---------------------------------------------------|---------------------------------------|
 | `--openai_key`   | OPENAI_KEY                                        | sk-....                               |
 | `--language`     | Language                                          | Hindi                                 |
+
+## 🧪 Run Evaluation
+
+```
+python src/inference.py -d <DATASET_NAMES> -o <OUTPUT>
+```
+
+### Arguments
+| Argument         | Description                                       | Example / Default                     |
+|------------------|---------------------------------------------------|---------------------------------------|
+| `--dataset_names` or `-d` | Dataset names                                     | all                                   |
+| `--output_folder` or `o` | Output folder                                     | output                                |
+| `--chunk_size`| Output folder                                     | 1                                |
+| `--start_offset`| Start offset                                     | 0                                |
+| `--end_offset`| End offset                                     | -1                                |
+| `--seeds_list`| List of seeds to use. Provide one or more integers separated by spaces (e.g., --seeds_list 0 1 2). Defaults to [0, 1, 2].                                     | 0 1 2                                |
+| `--safe-infer`| Filter out input that is longer than max-model-len minus output length                                     | (store_true)                                 |
+| `--debug`| Debug with {DEBUG_COUNT} samples.                 | (store_true)                                |
