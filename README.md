@@ -13,9 +13,10 @@ In this dataset, we employ multiple data generation strategies, including random
 ## 🧪 Generate Dataset
 
 ```
-python generate_codemix_data.py
+python generate_codemix_data.py --openai_key <OPENAI_KEY>
 ```
 
 ### Main Arguments
 | Argument         | Description                                       | Example / Default                     |
 |------------------|---------------------------------------------------|---------------------------------------|
+| `--openai_key`   | OPENAI_KEY                                        | sk-....                               |
