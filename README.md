@@ -11,12 +11,24 @@ We use SimpleQA Verified as our source dataset. We select the SimpleQA Verified,
 In this dataset, we employ multiple data generation strategies, including random switching, selective switching, and grammar-constrained approaches. This dataset enables systematic evaluation of LLM performance across different code-switching patterns and text generation strategies.
 
 ## 🧪 Generate Dataset
-
+This is the command to generate code-switched dataset.
 ```
 python generate_codemix_data.py --openai_key <OPENAI_KEY>
 ```
 
-### Main Arguments
+### Arguments
 | Argument         | Description                                       | Example / Default                     |
 |------------------|---------------------------------------------------|---------------------------------------|
 | `--openai_key`   | OPENAI_KEY                                        | sk-....                               |
+
+## 🧪 Generate Transliteration
+The transliteration is only done for Indic languages.
+```
+python generate_transliterated_data.py --openai_key <OPENAI_KEY> --language <LANGUAGE>
+```
+
+### Arguments
+| Argument         | Description                                       | Example / Default                     |
+|------------------|---------------------------------------------------|---------------------------------------|
+| `--openai_key`   | OPENAI_KEY                                        | sk-....                               |
+| `--language`     | Language                                          | Hindi                                 |

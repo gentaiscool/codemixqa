@@ -10,7 +10,7 @@ from tqdm import tqdm
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Parser")
-    parser.add_argument("--openai_key", type=str, default="mc", help="Type of question to evaluate (oe or mc)")\
+    parser.add_argument("--openai_key", type=str, default=None, help="OpenAI key")
 
     args = parser.parse_args()
 
