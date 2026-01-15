@@ -11,9 +11,14 @@ We use SimpleQA Verified as our source dataset. We select the SimpleQA Verified,
 In this dataset, we employ multiple data generation strategies, including random switching, selective switching, and grammar-constrained approaches. This dataset enables systematic evaluation of LLM performance across different code-switching patterns and text generation strategies.
 
 ## 📜 Paper 
-This is the source code of the paper [[Arxiv (will be updated)]](link). This code has been written using Python. If you use any code or datasets from this toolkit in your research, please cite the associated paper.
+This is the source code of the [paper](https://arxiv.org/pdf/2601.07153), "Can Large Language Models Understand, Reason About, and Generate Code-Switched Text?". This code has been written using Python. If you use any code or datasets from this toolkit in your research, please cite the associated paper.
 ```bibtex
-Will be updated
+@article{winata2026can,
+  title={Can Large Language Models Understand, Reason About, and Generate Code-Switched Text?},
+  author={Winata, Genta Indra and Anugraha, David and Irawan, Patrick Amadeus and Das, Anirban and Yoo, Haneul and Dashore, Paresh and Kulkarni, Shreyas and Zhang, Ruochen and Sakajo, Haruki and Hudi, Frederikus and others},
+  journal={arXiv preprint arXiv:2601.07153},
+  year={2026}
+}
 ```
 
 ### ⚡ Environment Setup
